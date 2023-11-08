@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0846FAD02AFBA2440037D9E5 /* scooters.json in Resources */ = {isa = PBXBuildFile; fileRef = 0846FACF2AFBA2440037D9E5 /* scooters.json */; };
+		0846FAD32AFBA4990037D9E5 /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846FAD22AFBA4990037D9E5 /* Scooter.swift */; };
 		088264842AF69DA40022D359 /* PatinfyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264832AF69DA40022D359 /* PatinfyApp.swift */; };
 		088264862AF69DA40022D359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264852AF69DA40022D359 /* ContentView.swift */; };
 		088264882AF69DA60022D359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088264872AF69DA60022D359 /* Assets.xcassets */; };
@@ -14,6 +16,13 @@
 		088264962AF69DA60022D359 /* PatinfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264952AF69DA60022D359 /* PatinfyTests.swift */; };
 		088264A02AF69DA60022D359 /* PatinfyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0882649F2AF69DA60022D359 /* PatinfyUITests.swift */; };
 		088264A22AF69DA60022D359 /* PatinfyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264A12AF69DA60022D359 /* PatinfyUITestsLaunchTests.swift */; };
+		088264AF2AF6AAB50022D359 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264AE2AF6AAB50022D359 /* Persistence.swift */; };
+		088264B12AF6AB730022D359 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264B02AF6AB730022D359 /* LoginView.swift */; };
+		088264B42AF6B34F0022D359 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264B32AF6B34F0022D359 /* LoginViewModel.swift */; };
+		088264B62AF6B3590022D359 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264B52AF6B3590022D359 /* Credentials.swift */; };
+		088264B82AF6BE790022D359 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264B72AF6BE790022D359 /* Services.swift */; };
+		088264BC2AF6C0FE0022D359 /* Authentification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264BB2AF6C0FE0022D359 /* Authentification.swift */; };
+		08BE35222AF9082E00AB3F1D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE35212AF9082E00AB3F1D /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0846FACF2AFBA2440037D9E5 /* scooters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scooters.json; sourceTree = "<group>"; };
+		0846FAD22AFBA4990037D9E5 /* Scooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooter.swift; sourceTree = "<group>"; };
 		088264802AF69DA40022D359 /* Patinfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patinfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088264832AF69DA40022D359 /* PatinfyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinfyApp.swift; sourceTree = "<group>"; };
 		088264852AF69DA40022D359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +56,13 @@
 		0882649B2AF69DA60022D359 /* PatinfyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatinfyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0882649F2AF69DA60022D359 /* PatinfyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinfyUITests.swift; sourceTree = "<group>"; };
 		088264A12AF69DA60022D359 /* PatinfyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinfyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		088264AE2AF6AAB50022D359 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		088264B02AF6AB730022D359 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		088264B32AF6B34F0022D359 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		088264B52AF6B3590022D359 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		088264B72AF6BE790022D359 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		088264BB2AF6C0FE0022D359 /* Authentification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentification.swift; sourceTree = "<group>"; };
+		08BE35212AF9082E00AB3F1D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +90,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0846FAD12AFBA35E0037D9E5 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				0846FACF2AFBA2440037D9E5 /* scooters.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		088264772AF69DA40022D359 = {
 			isa = PBXGroup;
 			children = (
+				08BE35212AF9082E00AB3F1D /* SplashScreen.swift */,
 				088264822AF69DA40022D359 /* Patinfy */,
 				088264942AF69DA60022D359 /* PatinfyTests */,
 				0882649E2AF69DA60022D359 /* PatinfyUITests */,
@@ -95,10 +122,16 @@
 		088264822AF69DA40022D359 /* Patinfy */ = {
 			isa = PBXGroup;
 			children = (
+				0846FAD12AFBA35E0037D9E5 /* data */,
+				088264BA2AF6C0E20022D359 /* Models */,
+				088264B22AF6B2BC0022D359 /* LoginViewModel */,
 				088264832AF69DA40022D359 /* PatinfyApp.swift */,
 				088264852AF69DA40022D359 /* ContentView.swift */,
 				088264872AF69DA60022D359 /* Assets.xcassets */,
+				088264AE2AF6AAB50022D359 /* Persistence.swift */,
 				088264892AF69DA60022D359 /* Patinfy.entitlements */,
+				088264B02AF6AB730022D359 /* LoginView.swift */,
+				088264B72AF6BE790022D359 /* Services.swift */,
 				0882648A2AF69DA60022D359 /* Preview Content */,
 			);
 			path = Patinfy;
@@ -127,6 +160,24 @@
 				088264A12AF69DA60022D359 /* PatinfyUITestsLaunchTests.swift */,
 			);
 			path = PatinfyUITests;
+			sourceTree = "<group>";
+		};
+		088264B22AF6B2BC0022D359 /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				088264B32AF6B34F0022D359 /* LoginViewModel.swift */,
+				088264B52AF6B3590022D359 /* Credentials.swift */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		088264BA2AF6C0E20022D359 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				088264BB2AF6C0FE0022D359 /* Authentification.swift */,
+				0846FAD22AFBA4990037D9E5 /* Scooter.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0846FAD02AFBA2440037D9E5 /* scooters.json in Resources */,
 				0882648C2AF69DA60022D359 /* Preview Assets.xcassets in Resources */,
 				088264882AF69DA60022D359 /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +311,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BE35222AF9082E00AB3F1D /* SplashScreen.swift in Sources */,
+				088264BC2AF6C0FE0022D359 /* Authentification.swift in Sources */,
+				088264B62AF6B3590022D359 /* Credentials.swift in Sources */,
+				088264AF2AF6AAB50022D359 /* Persistence.swift in Sources */,
 				088264862AF69DA40022D359 /* ContentView.swift in Sources */,
+				0846FAD32AFBA4990037D9E5 /* Scooter.swift in Sources */,
+				088264B82AF6BE790022D359 /* Services.swift in Sources */,
+				088264B12AF6AB730022D359 /* LoginView.swift in Sources */,
+				088264B42AF6B34F0022D359 /* LoginViewModel.swift in Sources */,
 				088264842AF69DA40022D359 /* PatinfyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

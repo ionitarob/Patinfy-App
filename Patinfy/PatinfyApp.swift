@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct PatinfyApp: App {
+    
+    @StateObject var authentification = Authentification()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            if authentification.isValidated{
+                ContentView().environmentObject(authentification)
+            }
+            else{
+                SplashScreen().environmentObject(authentification)
+                //LoginView().environmentObject(authentification)
+            }
         }
     }
 }
