@@ -15,7 +15,7 @@ class APIService{
     }
     
     func validUser(credentials: Credentials) -> Bool{
-        return(credentials.email == "me@alejandro.com") && (credentials.password == "password")
+        return(credentials.email == "robert.alex20003@gmail.com") && (credentials.password == "Alejandro124")
     }
     
     func login (credentials: Credentials,

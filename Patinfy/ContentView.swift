@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView{
             VStack{
                 List{
-                    ForEach(scooters.scooters) { scooter in ScooterRowView(name: scooter.name, uuid:scooter.state, distance: "10")}
+                    
                 }
                 
             }.navigationTitle("Scooters")
@@ -33,26 +33,7 @@ struct ContentView: View {
     }
 }
 
-struct ScooterRowView: View{
-    let name: String
-    let uuid: String
-    let distance: String
-    
-    var body: some View{
-        VStack{
-            VStack(alignment: .leading, spacing: 10 ){
-                Text(name).bold().foregroundColor(.black).font(.body)
-                HStack{
-                    Text(uuid).font(.body)
-                    HStack{
-                        Text("km:")
-                        Text(distance)
-                    }.frame(width: 290, alignment: .trailing)
-                }
-            }
-        }
-    }
-}
+
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0846FAD02AFBA2440037D9E5 /* scooters.json in Resources */ = {isa = PBXBuildFile; fileRef = 0846FACF2AFBA2440037D9E5 /* scooters.json */; };
 		0846FAD32AFBA4990037D9E5 /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846FAD22AFBA4990037D9E5 /* Scooter.swift */; };
+		0846FAD52AFBC4D40037D9E5 /* scooter in Resources */ = {isa = PBXBuildFile; fileRef = 0846FAD42AFBC4D40037D9E5 /* scooter */; };
 		088264842AF69DA40022D359 /* PatinfyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264832AF69DA40022D359 /* PatinfyApp.swift */; };
 		088264862AF69DA40022D359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264852AF69DA40022D359 /* ContentView.swift */; };
 		088264882AF69DA60022D359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088264872AF69DA60022D359 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		0846FACF2AFBA2440037D9E5 /* scooters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scooters.json; sourceTree = "<group>"; };
 		0846FAD22AFBA4990037D9E5 /* Scooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooter.swift; sourceTree = "<group>"; };
+		0846FAD42AFBC4D40037D9E5 /* scooter */ = {isa = PBXFileReference; lastKnownFileType = text; path = scooter; sourceTree = "<group>"; };
 		088264802AF69DA40022D359 /* Patinfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patinfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088264832AF69DA40022D359 /* PatinfyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinfyApp.swift; sourceTree = "<group>"; };
 		088264852AF69DA40022D359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		0846FAD12AFBA35E0037D9E5 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				0846FAD42AFBC4D40037D9E5 /* scooter */,
 				0846FACF2AFBA2440037D9E5 /* scooters.json */,
 			);
 			path = data;
@@ -101,7 +104,6 @@
 		088264772AF69DA40022D359 = {
 			isa = PBXGroup;
 			children = (
-				08BE35212AF9082E00AB3F1D /* SplashScreen.swift */,
 				088264822AF69DA40022D359 /* Patinfy */,
 				088264942AF69DA60022D359 /* PatinfyTests */,
 				0882649E2AF69DA60022D359 /* PatinfyUITests */,
@@ -122,6 +124,7 @@
 		088264822AF69DA40022D359 /* Patinfy */ = {
 			isa = PBXGroup;
 			children = (
+				08BE35212AF9082E00AB3F1D /* SplashScreen.swift */,
 				0846FAD12AFBA35E0037D9E5 /* data */,
 				088264BA2AF6C0E20022D359 /* Models */,
 				088264B22AF6B2BC0022D359 /* LoginViewModel */,
@@ -286,6 +289,7 @@
 			files = (
 				0846FAD02AFBA2440037D9E5 /* scooters.json in Resources */,
 				0882648C2AF69DA60022D359 /* Preview Assets.xcassets in Resources */,
+				0846FAD52AFBC4D40037D9E5 /* scooter in Resources */,
 				088264882AF69DA60022D359 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
