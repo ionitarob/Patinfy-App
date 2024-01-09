@@ -83,11 +83,114 @@ struct LoginView: View {
 
 struct ConditionsView: View {
     var body: some View {
-        // Aquí deberías implementar la vista que muestra las condiciones
-        Text("Condiciones de uso")
-            .padding()
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                Text("Patinfly App - Terms and Conditions")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .padding(.bottom, 20)
+
+                Text("By using the Patinfly mobile application (\"App\"), you agree to the following terms and conditions:")
+                    .padding(.bottom, 10)
+
+                Group {
+                    Text("1. Acceptance of Terms:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - By accessing or using the Patinfly App, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("2. User Eligibility:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Users must be at least 18 years old to use the Patinfly App. By using the App, you confirm that you meet this age requirement.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("3. Account Registration:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Users are required to create an account to use Patinfly. You agree to provide accurate, current, and complete information during the registration process.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("4. Scooter Rental:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Patinfly provides electric scooters for short-term rental. Users are responsible for the proper use and care of the scooters and must follow local traffic laws and regulations.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("5. Safety Guidelines:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Users must wear appropriate safety gear, including helmets, while using Patinfly scooters. It is your responsibility to ride responsibly and be aware of your surroundings.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("6. Payment and Fees:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Users agree to pay all applicable fees associated with the use of Patinfly services. This includes rental fees, damage fees, and any other charges as outlined in the App.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("7. Prohibited Activities:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Users must not engage in any illegal activities while using Patinfly. This includes, but is not limited to, reckless riding, vandalism, and violation of traffic laws.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("8. Liability:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Patinfly is not liable for any injuries, accidents, or damages that may occur during the use of its services. Users assume all risks associated with the use of Patinfly scooters.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("9. Termination of Services:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Patinfly reserves the right to terminate or suspend your account at any time for violation of these terms and conditions or for any other reason deemed appropriate by the company.")
+                }
+                .padding(.bottom, 10)
+
+                Group {
+                    Text("10. Privacy Policy:")
+                        .font(.headline)
+                        .padding(.bottom, 5)
+
+                    Text("   - Your use of the Patinfly App is also governed by our Privacy Policy, which outlines how we collect, use, and protect your personal information.")
+                }
+                .padding(.bottom, 10)
+
+                Text("By using the Patinfly App, you agree to abide by these terms and conditions. Patinfly reserves the right to update or modify these terms at any time, and users are encouraged to review them periodically. If you do not agree with these terms, please refrain from using the Patinfly App.")
+                    .padding(.top, 20)
+            }
+            .padding(20)
+        }
     }
 }
+
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
