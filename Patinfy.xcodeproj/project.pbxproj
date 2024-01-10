@@ -23,6 +23,9 @@
 		088264B62AF6B3590022D359 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264B52AF6B3590022D359 /* Credentials.swift */; };
 		088264B82AF6BE790022D359 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264B72AF6BE790022D359 /* Services.swift */; };
 		088264BC2AF6C0FE0022D359 /* Authentification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088264BB2AF6C0FE0022D359 /* Authentification.swift */; };
+		08998B432B4DBE8200E6293A /* ScooterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08998B422B4DBE8200E6293A /* ScooterRowView.swift */; };
+		08998B452B4DBEB100E6293A /* BatteryIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08998B442B4DBEB100E6293A /* BatteryIconView.swift */; };
+		08998B482B4DE5C100E6293A /* ScooterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08998B472B4DE5C100E6293A /* ScooterDetailView.swift */; };
 		08BE35222AF9082E00AB3F1D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE35212AF9082E00AB3F1D /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +67,9 @@
 		088264B52AF6B3590022D359 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		088264B72AF6BE790022D359 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		088264BB2AF6C0FE0022D359 /* Authentification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentification.swift; sourceTree = "<group>"; };
+		08998B422B4DBE8200E6293A /* ScooterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterRowView.swift; sourceTree = "<group>"; };
+		08998B442B4DBEB100E6293A /* BatteryIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryIconView.swift; sourceTree = "<group>"; };
+		08998B472B4DE5C100E6293A /* ScooterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterDetailView.swift; sourceTree = "<group>"; };
 		08BE35212AF9082E00AB3F1D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,12 +130,12 @@
 		088264822AF69DA40022D359 /* Patinfy */ = {
 			isa = PBXGroup;
 			children = (
+				08998B462B4DBEED00E6293A /* ContentViewModel */,
 				08BE35212AF9082E00AB3F1D /* SplashScreen.swift */,
 				0846FAD12AFBA35E0037D9E5 /* data */,
 				088264BA2AF6C0E20022D359 /* Models */,
 				088264B22AF6B2BC0022D359 /* LoginViewModel */,
 				088264832AF69DA40022D359 /* PatinfyApp.swift */,
-				088264852AF69DA40022D359 /* ContentView.swift */,
 				088264872AF69DA60022D359 /* Assets.xcassets */,
 				088264AE2AF6AAB50022D359 /* Persistence.swift */,
 				088264892AF69DA60022D359 /* Patinfy.entitlements */,
@@ -181,6 +187,17 @@
 				0846FAD22AFBA4990037D9E5 /* Scooter.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		08998B462B4DBEED00E6293A /* ContentViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				088264852AF69DA40022D359 /* ContentView.swift */,
+				08998B422B4DBE8200E6293A /* ScooterRowView.swift */,
+				08998B442B4DBEB100E6293A /* BatteryIconView.swift */,
+				08998B472B4DE5C100E6293A /* ScooterDetailView.swift */,
+			);
+			path = ContentViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,12 +335,15 @@
 				08BE35222AF9082E00AB3F1D /* SplashScreen.swift in Sources */,
 				088264BC2AF6C0FE0022D359 /* Authentification.swift in Sources */,
 				088264B62AF6B3590022D359 /* Credentials.swift in Sources */,
+				08998B452B4DBEB100E6293A /* BatteryIconView.swift in Sources */,
 				088264AF2AF6AAB50022D359 /* Persistence.swift in Sources */,
 				088264862AF69DA40022D359 /* ContentView.swift in Sources */,
+				08998B432B4DBE8200E6293A /* ScooterRowView.swift in Sources */,
 				0846FAD32AFBA4990037D9E5 /* Scooter.swift in Sources */,
 				088264B82AF6BE790022D359 /* Services.swift in Sources */,
 				088264B12AF6AB730022D359 /* LoginView.swift in Sources */,
 				088264B42AF6B34F0022D359 /* LoginViewModel.swift in Sources */,
+				08998B482B4DE5C100E6293A /* ScooterDetailView.swift in Sources */,
 				088264842AF69DA40022D359 /* PatinfyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +508,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide you with nearby scooter information.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -526,6 +547,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide you with nearby scooter information.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

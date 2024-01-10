@@ -36,7 +36,6 @@ struct ScooterRowView: View {
 
             VStack(alignment: .trailing, spacing: 10) {
                 HStack {
-                    Text("km:")
                     Text(distance)
                 }
 
@@ -73,3 +72,4 @@ struct ScooterRowView: View {
         }
     }
 }
+
